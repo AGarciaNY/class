@@ -45,16 +45,21 @@
 
 .navitems.dropdown {
   display: inline-block;
+  
 }
 
 .dropdown-content {
+  background:linear-gradient(lightblue,lightgreen, lightyellow,transparent);
   display: none;
   position: absolute;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  border:3px solid #eff8be;
   border-radius: 20px;
-  border:1px solid black;
+  left: 100px;
+  top:1px;
+  
 }
 
 .dropdown-content a {
@@ -113,4 +118,15 @@ body {
   height:200px;
   position: absolute;
   top:140px;
+}
+.livekahoot{
+  height:400px;
+  width: 500px;
+  position: absolute;
+  right:50px;
+  top:200px;
+}
+.lk{
+  height:390px;
+  width: 500px;
 }
