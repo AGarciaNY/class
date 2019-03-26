@@ -2,8 +2,13 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="class.css" >
+        <script src="js/music.js" type="module"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </head>
     <body>
+              <audio id="myAudio" autoplay loop>
+                <source src="kahoot.mp3" type="audio/mpeg">
+              </audio>
         <div>
             <nav class="fontc"  id="navv">
               <p><h3 class="navname">Johan Brand biography</h3></p>
@@ -15,6 +20,7 @@
                       <a  href="#">Biography</a>
                       <a href="other.html">Related work</a>
                       <a  href="about.html">sources</a>
+                      <a  class="playstop">Stop or play music</a>
                     </div>
                  </li>
                 </ul>
