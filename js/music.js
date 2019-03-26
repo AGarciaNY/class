@@ -15,7 +15,6 @@ $(".playstop").click(function(){
     
     
     var num=clicknumber+++1;
-    $("h1").html(num);
     if(num%2 !== 0){
         
         enableControls();

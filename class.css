@@ -119,6 +119,7 @@ body {
   height:200px;
   position: absolute;
   top:140px;
+  border-radius: 30px;
 }
 .livekahoot{
   height:400px;
@@ -137,10 +138,20 @@ body {
   position: absolute;
   top:140px;
   left:30%;
+  border-radius: 30px;
 }
 .livetext{
   position: absolute;
   top:10px;
   z-index: 1;
   
+}
+.JoHaninfo{
+  width: 50%;
+  position: absolute;
+  top:400px;
+  line-height: 30px;
+  border:4px solid lightyellow;
+  border-radius: 30px;
+  background-color: lightgreen;
 }
