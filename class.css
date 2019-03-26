@@ -129,4 +129,11 @@ body {
 .lk{
   height:390px;
   width: 500px;
+  position: absolute;
+}
+#johanimgtwo{
+  height:200px;
+  position: absolute;
+  top:140px;
+  left:30%;
 }
